@@ -88,6 +88,16 @@ local Window = Rayfield:CreateWindow({
    Name = "Nytrax Cheats 1.0",
    LoadingTitle = "Nytrax Premium",
    LoadingSubtitle = "O melhor para SRP",
+   ConfigurationSaving = {
+      Enabled = true,
+      FolderName = nil,
+      FileName = "NytraxHub"
+   },
+   Discord = {
+      Enabled = false,
+      Invite = "noinvitelink",
+      RememberJoins = true
+   },
    KeySystem = true,
    KeySettings = {
       Title = "Nytrax Cheats - Segurança",
@@ -95,8 +105,8 @@ local Window = Rayfield:CreateWindow({
       Note = "Pegue sua key no Discord.",
       FileName = "NytraxKey",
       SaveKey = true,
-     GrabKeyFromSite = true,
-      Key = {"https://raw.githubusercontent.com/Silveira2017/nytrax-keys/refs/heads/main/keys.json"}
+      GrabKeyFromSite = true,
+      Key = {"https://raw.githubusercontent.com/Silveira2017/nytrax-keys/main/keys.json"}
    }
 })
 
